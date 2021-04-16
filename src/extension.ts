@@ -5,7 +5,7 @@ import * as vscode from 'vscode';
 class MothershipHost extends vscode.TreeItem {
 	hostName?: string;
 
-	constructor(hostname: string, hostAddress: string) {
+	constructor(hostname: string) {
 		super(`${hostname}`);
 		this.hostName = hostname;
 	}
